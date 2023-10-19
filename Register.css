@@ -1,0 +1,42 @@
+
+
+body{
+    border: 30px soild black ;
+    height: 300vh;
+    border-radius:15px;
+    padding-top: 80px;
+    background-image: linear-gradient(lightgreen,white,lightblue);
+}
+  fieldset{
+    background-image: url(Register.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:30px;
+    width: 30%;
+    margin: auto;
+    text-align: left;
+    font-weight: 600;
+    
+}
+.head{
+  font-size: 25px;
+  color:beige;
+}
+
+BUTTON{
+  background:darkgoldenrod;
+    color:white;
+    text-decoration:none;
+    border:1px solid transparent;
+    font-weight:bold;
+    padding: 13px 30px;
+    border-radius:30px;
+    font-size: 15px;
+    font-style: oblique;
+  }
+#BUTTON:hover{
+  background-color:darkred;
+  color:#000;
+  transition: 0.6s ease;
+}
+
