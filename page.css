@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html
+body{
+     line-height: 1.4;
+     font-weight: 300;
+     font-family: "Roboto", sans-serif;
+}
+.main{
+    background-image: url(dolly.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter:blur(10px);
+}
+.text_container{
+    color:white;
+    max-width: 900px;
+    margin:0 auto;
+    padding-top: 60px;
+    margin-left: 900px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .text{
+        font-size: 200px;
+        font-weight: 700;
+        margin-left:10px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: brown;
+        margin-right: 2800px;
+}
+.whites{
+    font-size: 150px;
+    font-weight: 300px;
+    color:darkblue;
+    margin-left: 550px;
+    margin-top: 0px;
+}
+        .div{
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+.name{
+    font-size: 150px;
+}
+.to{
+    font-size: 150px;
+    font-weight: 200;
+
+}
+.head{
+    font-size: 200px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.more{
+    padding-top: 20px;
+    font-size: 150px;
+    color:darkcyan;
+    font-weight: 600;
+    margin-left: 300px;
+}
+.list{
+    padding-top: 30px;
+    font-size: 130px;
+    color: darkgreen;
+    margin-left: 1100px;
+    font-style: italic;
+    margin-left: 800px;
+}
+.dom{
+    margin-left: 1000px;
+    padding-top: 20px;
+    font-style:oblique;
+    font-size: 100px;
+    color:black;
+    font-weight: 200px;
+}
+.new{
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(320,1fr));
+    justify-content: center;
+    background-color:lightgreen;
+    padding-top: 70px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.new1{
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(320,1fr));
+    justify-content: center;
+    background-color:lightgreen;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+
+}
+
+.gallery{
+    min-height: 72px;
+    font-size: 60px;
+    text-align: center;
+    color:blueviolet;
+    border: 1px solid black;
+    margin: 30px;
+    padding-bottom:50px;
+    backdrop-filter:blur(10px);
+   
+}
+.h3{
+    color: beige;
+    font-size: 80px;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+.p{
+    color: darkblue;
+    margin-top:auto;
+    font-size: 60px;
+    font-weight: 800;
+    font-style: oblique;
+    padding-bottom: 50px;
+  
+}
+#bt1{
+    border: 1px solid black;
+    color:darkred;
+    padding:5px;
+    text-decoration: none;
+    font-size:50px;
+    font-weight: 600;
+    font-style: oblique;
+    border-radius: 200px;
+;
+}
+    
+   
+
+#bt1:hover{
+    background-color: yellow;
+    color:white;
+    transition: 0.6s ease;
+
+}
+.p1{
+    color: darkblue;
+    margin-top:auto;
+    font-size: 60px;
+    font-weight: 800;
+    font-style: oblique;
+    padding-bottom: 40px;
+}
+
+
+.about{
+    background-color:lightcoral;
+    min-height: 43vh;
+}
+
+h5{
+    font-size: 130px;
+    font-weight: 600;
+    color:darkgreen;
+    padding-top:50px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.para{
+    font-size: 60px;
+    font-weight: 300;
+    font-style: oblique;
+    color:black;
+    padding-left: 60px;
+}
+h6{
+    font-size: 130px;
+    font-weight: 600;
+    color:blue;
+    margin-bottom: 25px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.pin{
+    font-size: 60px;
+    font-weight: 300;
+    font-style: oblique;
+    color:black;
+
+}
+.footer{
+    min-height: 43vh;
+    background-color:lightcoral;
+   padding-top:10px;
+   backdrop-filter:blur(10px);
+
+}
+.img{
+    padding-top:150px;
+    border-radius: 1000px;
+    overflow:hidden;
+    border: 1 px solid black;
+    
+}
